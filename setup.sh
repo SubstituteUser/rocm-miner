@@ -24,7 +24,7 @@ tar xvzf ethminer-0.14.0.dev1-Linux.tar.gz;
 ### mv bin eth
 # if you do this please replace bin with eth from the rest of the instructions
 # to to do this you can open this vile in vim and type :%s/bin/eth/g
-
+mv master-script.sh bin;
 # enter directory bin
 cd bin;
 # make a symbolic link to ROCm's monitoring and settings utility
