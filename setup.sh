@@ -6,11 +6,11 @@
 #   https://github.com/RadeonOpenCompute/ROCm
 
 # make a mining directory
-mkdir ~/mining;
+#mkdir ~/mining;
 # copy the scripts to mining
-cp * ~/mining;
+#cp * ~/mining;
 # change to it
-cd ~/mining;
+#cd ~/mining;
 # grab the stable prebuilt ethminer
 #   Building it from source with Hunter disabled is probably the 
 #   best practice but is very time consuming and requires a decent
