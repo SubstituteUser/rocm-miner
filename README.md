@@ -1,4 +1,4 @@
-#rocm-miner
+# rocm-miner
 > a quick and dirty way to get up and running mining ethereum on
 > the ROCm Platform
 
