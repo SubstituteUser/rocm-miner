@@ -25,4 +25,6 @@ https://github.com/RadeonOpenCompute/ROCm
 # running as sudo for now, rocm-smi likes root priviledge
 # TODO clean up priviledges
         sudo ./master-script.sh
+# for nvidia cards, install proprietary drivers and do
+        git checkout nvidia
 ```

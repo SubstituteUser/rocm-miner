@@ -1,9 +1,6 @@
 #/bin/bash
 
-# This script is assuming you have already updated Ubuntu and 
-# installed the ROCM dkms package. If not please do that first
-
-#   https://github.com/RadeonOpenCompute/ROCm
+# This script assumes you have already downloaded and installed relevant nvidia drivers.
 
 # make a mining directory
 #mkdir ~/mining;
@@ -24,10 +21,8 @@ tar xvzf ethminer-0.14.0.dev1-Linux.tar.gz;
 ### mv bin eth
 # if you do this please replace bin with eth from the rest of the instructions
 # to to do this you can open this vile in vim and type :%s/bin/eth/g
-mv master-script.sh bin;
+#mv master-script.sh bin;
 # enter directory bin
-cd bin;
-# make a symbolic link to ROCm's monitoring and settings utility
+#cd bin;
 # for convenience and organization's sake
-ln -s /opt/rocm/bin/rocm-smi rocm-smi;
 
