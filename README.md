@@ -26,5 +26,12 @@ https://github.com/RadeonOpenCompute/ROCm
 # TODO clean up priviledges
         sudo ./master-script.sh
 # for nvidia cards, install proprietary drivers and do
+
         git checkout nvidia
+
+# TODO 
+## clean up priviledges
+## make functional logging system
+## make a damen?
+## figure out nvidia overclock
 ```
